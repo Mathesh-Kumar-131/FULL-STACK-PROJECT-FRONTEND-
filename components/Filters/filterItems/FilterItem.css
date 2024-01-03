@@ -1,0 +1,65 @@
+.filter-item{
+    padding: 10px;
+    background-color: var(--primary-bg);
+    border: 1px solid var(--gray);
+    border-radius: 8px;
+    margin: 10px 12px 10px 0px;
+    font-size: 15px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-btn{
+    border: none;
+    color: var(--filter-text);
+    background-color: white;
+    cursor: pointer; 
+}
+
+.modal{
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    z-index: 99999;
+}
+.modal-page{
+    background-color: white;
+    height: 80vh;
+    width: 100vh;
+    border-radius: 10px;
+}
+.pop-nav{
+    width: 93.5%;
+    height: 7vh;
+    padding: 15px 22px;
+    margin: 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+.pop-nav h2{
+    padding:11px;
+     
+    color: rgb(36, 36, 36);
+}
+.pop-btn{
+    font-size: 25px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    float: right;
+}
+.pop-btn:hover{
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}

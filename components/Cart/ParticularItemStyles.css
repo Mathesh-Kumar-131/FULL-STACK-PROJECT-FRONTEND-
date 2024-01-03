@@ -1,0 +1,98 @@
+.true-container{
+    transform: translate(0%, -82%);
+    float: right;
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+}
+.img-food-true{
+    border: 1px solid var(--filter-text);
+    padding: 12px;
+    margin: 70px 0px 0px 150px;
+    width: 25%;
+    height: 35vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.img{
+    border-radius: 10px;
+}
+.img:hover{
+    transform: scale(0.97);
+    border-radius: 10px;
+}
+.detail-container{
+    padding: 12px 0px 0px 0px;
+    border-radius: 10px;
+    width: 60%;
+    height: 20vh;
+    border: 1px solid var(--filter-text); 
+    text-align: center;
+}
+.detail-container-1{
+    font-size: 25px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.price-container{
+    /* border: 1px solid black; */
+    font-size: 25px;
+}
+.time-container{
+    font-size: 20px;
+    float: right;
+    width: 20%;
+    height: 3vh;
+    border-radius: 5px;
+    background-color: white;
+}
+.button-s{
+    /* border: 1px solid black; */
+    width: 12%;
+    height: 4vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 15px 0px 0px 0px
+}
+.decrease-btn{
+    width: 25%;
+}
+.increase-btn{
+    width: 25%;
+}
+.btn{
+    border: none;
+    font-size: 25px;
+    width: 100%;
+    background-color: orange;
+    border-radius: 5px;
+}
+.btn:hover{
+    cursor: pointer;
+    border: none;
+    font-size: 25px;
+    width: 100%;
+}
+.main-btn-container{
+    margin: 10px 0px 0px 0px;
+    width: 60%;
+    height: 6vh;
+    /* transform: translate(-305%, 950%); */
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    padding: 12px;
+}
+.main-btn{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    width: 40%;
+    border: none;
+}
+.main-btn:hover{
+    width: 40%;
+    cursor: pointer;
+}
