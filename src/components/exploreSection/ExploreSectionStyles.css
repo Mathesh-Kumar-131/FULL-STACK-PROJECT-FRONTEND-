@@ -1,0 +1,138 @@
+.explore-section{
+    /* border: 1px solid black; */
+    margin-top: 18px;
+}
+
+.explore-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding: 10px; */
+    /* margin: 0px; */
+    /* border: 1px solid black; */
+}
+
+.collection-search{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+.collection-icon{
+    width: 30%;
+    height: 40px;
+    display: flex;
+}
+#collection-input{
+    width: 90%;
+    text-align: left;
+    padding: 12px;
+    float: right;
+    border: none;
+    background-color: rgb(230, 230, 230);
+}
+.fa-solid{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.approx-price{
+    font-size: 15px;
+    color: black;
+}
+/*Map */
+.explore-card{
+    margin: 12px 0px 24px 0px;
+    padding: 10px;
+}
+
+.explore-card-cover{
+    height: 248px;
+    width: 328px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.explore-card-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.delivery-time{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    opacity: 0.8;
+    background-color: var(--primary-bg);
+    backdrop-filter: blur(4px);
+    font-weight: 600;
+    font-size: 12px;
+    padding: 2px 5px 3px;
+    border-radius: 4px;
+}
+
+.res-row{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.res-name{
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 22px;
+    /* padding: 20px; */
+    font-weight: 600;
+    color: var(--heading-text);
+    /* float: left; */
+}
+
+.res-rating{
+    padding: 0px 10px;
+    font-size: 15px;
+    color: var(--primary-bg);
+    background-color: var(--tag-green);
+    border-radius: 6px;
+    height: 24px;
+}
+
+.pir-rat{
+    float: right;
+    text-align: center;
+    /* border: 1px solid black; */
+    width: 15%;
+    transform: translate(10%, -60%);
+    padding: 5px;
+    /* height: 0px;
+    padding-bottom: 60px; */
+    /* font-size: 12px;
+    margin: 3px; */
+}
+
+.res-foodType{
+    font-size: 15px;
+    max-width: 56%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}
+
+.res-foodType-tag{
+    margin-right: 4px;
+    color: var(--inactive-text);
+}
+
+.approx-price{
+    font-size: 15px;
+    color: var(--inactive-text);
+}
+
+.explore-card:hover{
+    background-color: var(--primary-bg);
+    border: 1px solid black;
+}
